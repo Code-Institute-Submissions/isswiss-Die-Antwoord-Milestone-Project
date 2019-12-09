@@ -1,6 +1,6 @@
 # Code Institute
 
-Welcome USER_NAME,
+Welcome krisswiss,
 
 We have preinstalled all of the tools you need to get started.
 
