@@ -1,0 +1,36 @@
+body {
+    background-color: blue;
+}
+/*----- Navbar -----*/
+
+.navbar {
+    
+}
+
+.navbar-brand {
+    position: relative;
+    width: 33%;
+    padding: 0;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(241, 45, 25);
+}
+
+#collapsibleNavbar {
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+/*----- Home -----*/
+
+.MainPicture {
+    padding-top: 3em;
+}
+
