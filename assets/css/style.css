@@ -1,10 +1,13 @@
 body {
-    background-color: blue;
 }
 /*----- Navbar -----*/
 
 .navbar {
     
+}
+
+.nav-item {
+    padding: 0px 10px 10px 10px;
 }
 
 .navbar-brand {
@@ -14,7 +17,7 @@ body {
 }
 
 li {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -33,4 +36,34 @@ li {
 .MainPicture {
     padding-top: 3em;
 }
+
+/*----- About -----*/
+
+.about {
+    height: 100VH;
+    padding-top: 3em;
+}
+.aboutImage {
+    position: relative;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.aboutImage>img {
+    height: 75%;
+}
+
+.aboutText {
+    position: relative;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.aboutText>p {
+text-align: left;
+}
+
+
+
+
 
