@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500,600,700&display=swap&subset=latin-ext');
+
 body {
+    font-family: 'Source Code Pro', sans-serif;
 }
 /*----- Navbar -----*/
 
@@ -8,6 +11,7 @@ body {
 
 .nav-item {
     padding: 0px 10px 10px 10px;
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 .navbar-brand {
@@ -57,13 +61,52 @@ li {
     position: relative;
     text-align: center;
     margin-top: 125px;
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 .aboutText>p {
 text-align: left;
 }
 
+/*----- Music -----*/
 
+.music {
+    height: 100VH;
+    padding-top: 3em;
+    background-image: url('../images/music-bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
+/*----- Video -----*/
 
+.video {
+    height: 100VH;
+    padding-top: 3em;
+    background-image: url('../images/video-bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
+/*----- Concerts -----*/
+
+/*----- Footer -----*/
+
+/*----- BOOTSTRAP BREAKPOINTS -----*/
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
