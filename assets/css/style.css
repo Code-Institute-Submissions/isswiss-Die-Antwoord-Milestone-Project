@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500,600,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap&subset=latin-ext');
 
 body {
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Bangers', cursive, sans-serif;
 }
 /*----- Navbar -----*/
 
 .navbar {
-  
+    background-color: #868816;
+}
+
+.logo {
+    width: 33%;
 }
 
 .nav-item {
     padding: 0px 10px 10px 10px;
-    font-family: 'Source Code Pro', sans-serif;
-}
-
-.navbar-brand {
-    position: relative;
-    width: 30%;
-   
+    font-family: 'Bangers', cursive, sans-serif;
 }
 
 li {
@@ -63,9 +61,9 @@ li {
 .aboutText {
     position: relative;
     padding: 0em 4em 0em 4em;
+    font-family: 'Bangers', cursive, sans-serif;
     text-align: center;
     margin-top: 125px;
-    font-family: 'Source Code Pro', sans-serif;
     font-size: 0.8em;
 }
 
@@ -114,6 +112,14 @@ text-align: left;
 }
 
 /*----- Concerts -----*/
+
+.concerts {
+    height: 100VH;
+    background-image: url('../images/concerts.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
 /*----- Footer -----*/
 
