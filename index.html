@@ -3,23 +3,19 @@
 
 <head>
 	<meta charset="UTF-8">
+    <title>Die Antwoord | Unofficial website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
-	<title>Die Antwoord | Unofficial website</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 </head>
 
 <body>
 
 	<!-----   Nav   ----->
 
-	<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+	<nav class="navbar navbar-expand-md fixed-top">
 		<!-- Brand -->
 		<a class="navbar-brand" href="#"><img src="assets/images/logo2.png" class="img-fluid logo" alt="logo"></a>
 
@@ -32,7 +28,7 @@
 			<!-- Navbar links -->
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
+					<li class="nav-item mr-2">
 						<a class="nav-link" href="#">Home</a>
 					</li>
 					<li class="nav-item">
@@ -47,16 +43,16 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#concerts">Concerts</a>
 					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#follow">Follow</a>
+					</li>
 				</ul>
 			</div>
 	</nav>
 
 	<!-----   Home   ----->
-
-	<header>
-	  <img src="assets/images/home4.jpg" class="img-fluid d-none d-md-block MainPicture" alt="Main Picture">
-      <img src="assets/images/home4a.jpg" class="img-fluid d-none d-block d-md-none MobilePicture" alt="Main Picture">
-    </header>
+    
+    <div class="home" id="home"></div>
 
 	<!-----   About   ----->
 
@@ -68,14 +64,14 @@
           </div>
           <div class="col-12 col-lg-4 aboutText">
              <h3>Who the hell are</h3>
-             <h1>Die Antwoord?!</h1>
+             <h1>Die Antwoord ?!</h1>
              <hr>
              <br>
              <p>Die Antwoord (pronounced [di ˈantvʊərt], Afrikaans for "The Answer") is a South African hip hop group formed in Cape Town in 2008. The group is composed of rappers Ninja and Yolandi Visser, a male/female duo, and producer (formerly
                         DJ Hi-Tek). Their image revolves around the South African counterculture movement known as zef and has incorporated work by other artists associated with the movement, such as photographer Roger Ballen. In 2009, Die Antwoord released
                         their debut album $O$ for free online and attracted international attention for their music video "Enter the Ninja". After briefly signing with Interscope Records, in 2011 they founded their own label, Zef Recordz, and released
                         their second and third studio albums: Ten$Ion (2012) and Donker Mag ("Dark Power"; 2014). In 2016, they released their fourth album Mount Ninji and da Nice Time Kid.</p>
-                    <p class="text-muted externalLink">Die Antwoord inspires more questions than<a href="https://www.diggitmagazine.com/papers/representation-zef-culture-die-antwoord" target="_blank"> answers...</a></p>
+                    <p class="text-muted externalLink"><a href="https://www.diggitmagazine.com/papers/representation-zef-culture-die-antwoord" target="_blank">Die Antwoord inspires more questions than answers...</a></p>
           </div>
           <div class="col-lg-4 d-none d-lg-block aboutImage">
             <img src="assets/images/about1a.jpg" class="img-fluid" alt="Yo-Landi portrait">
@@ -99,7 +95,15 @@
             <div class="d-none d-lg-block">
               <iframe src="https://open.spotify.com/embed/track/7rmUSOrOLRBzI8Uq63qYcR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
+            <p class="inline-block">
+                    Lyrics
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Lyrics link.</span>
+                    </a>
+            </p>
           </div>
+          
 
           <div class="col-12 col-lg-4">
             <!-----   Small Player   ----->
@@ -110,6 +114,13 @@
             <div class="d-none d-lg-block">
               <iframe src="https://open.spotify.com/embed/track/0zSGK8ZpVuo0XdIY21Vyrh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
+            <p class="inline-block">
+                    Lyrics
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Lyrics link.</span>
+                    </a>
+            </p>
           </div>
 
           <div class="col-12 col-lg-4">
@@ -121,8 +132,15 @@
             <div class="d-none d-lg-block">
               <iframe src="https://open.spotify.com/embed/track/7Ma1k2O1MQzMqJYBaEXDpx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
-          </div>
-
+              <p class="inline-block">
+                    Lyrics
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Lyrics link.</span>
+                    </a>
+              </p>
+            </div>
+          
         </div>
       </div>
     </section>
@@ -135,78 +153,97 @@
       <div class="row">
         <div class="col-12 videoWrapper">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/AIXUgtNC4Kc?start=110" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="inline-block">
+                    Lyrics
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Lyrics link.</span>
+                    </a>
+            </p>
+          
         </div>
+        
     </div>
 
     </section>
 
 	<!-----   Concerts   ----->
+
     <section class="concerts" id="concerts">
     
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row padding navbar-dark">
+        <div class="col-md-7">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5 tour">
 
           <!------------------ Tour ------------------>
-          <div class="row">
-           <div class="col-md-5">
             <h3>Tour</h3>
-            <h5>Philadelphia, Pa - 23/04/2020</h5>
-            <h5>Boston, Ma - 24/04/2020</h5> 
-            <h5>Washington, Dc - 30/04/2020</h5> 
-            <h5>St Louis, Mo - 04/05/2020</h5> 
-            <h5>New Orleans, La - 06/05/2020</h5> 
-           </div>
-          <div class="col-md-1">
-            <h3></h3>
-              <button type="button">Info</button>
-              <button type="button">Info</button>
-              <button type="button">Info</button>
-              <button type="button">Info</button>
-              <button type="button">Info</button>
-           </div>
-          </div>
+            <h5 class=>Philadelphia, Pa - 23/04/2020</h5> <button type="button"><a href="https://www.bandsintown.com/e/101534866?app_id=45press&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Info</a></button>
+            <h5>Boston, Ma - 24/04/2020</h5> <button type="button"><a href="https://www.bandsintown.com/e/101534870?app_id=45press&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Info</a></button>
+            <h5>Washington, Dc - 30/04/2020</h5> <button type="button"><a href="https://www.bandsintown.com/e/101534875?app_id=45press&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Info</a></button>
+            <h5>St Louis, Mo - 04/05/2020</h5> <button type="button"><a href="https://www.bandsintown.com/e/101534877?app_id=45press&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Info</a></button>
+            <h5>New Orleans, La - 06/05/2020</h5> <button type="button"><a href="https://www.bandsintown.com/e/101534881?app_id=45press&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Info</a></button>
+
           <!------------------ Subscribe form ------------------>
 
-          <div class="row">
-           <div class="col-md-5">
             <form>
                 <label for="email">Exclusive Updates:</label>
                 <br></br>
                 <input type="email" name="email" required placeholder="enter email"/>
             </form>
-           </div>
-           <div class="col-md-1">
+          
             <h3></h3>
               <button type="button">Submit</button>
-           </div>
-          </div>
-
+        </div>
     </div>
     
     </section>
 	<!-----   Footer   ----->
 
-    <footer>
-      <footer class="container-fluid">
+      <footer class="container-fluid follow" id="follow">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-                </p>
+                <h5 class="uppercase general-sub">Copyright</h5>
+                <p class="inline-block"><i class="fa fa-copyright" aria-hidden="true"></i>2020 Chris Swiatek. All rights reserved.</p>
+                <p>Unofficial Website for Die Antwoord.</p>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download</h5>
+                <h5 class="uppercase general-sub">Bookings</h5>
                 <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
-                    </a>
+                    Wanna book U$ for the event?
                 </p>
+
+                <!--- BOOKING MODAL--->
+
+                <button class="btn btn-dark" data-toggle="modal" data-target="#bookingModal">Enquire</button>
+                <div class="modal fade" id="bookingModal" tabindex="1" role="dialog" style="display: none;" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismoss="modal">x</button>
+                     <div class="modal-body">
+                     <div class="justify-content-center">
+                      
+                       <form class="booking-form" onsubmit="myFunction()">
+                         <div class="form-group">
+                           <input type="text" class="form-control" id="name" placeholder="Name" required>
+                         </div>
+                         <div class="form-group">
+                           <input type="text" class="form-control" id="email" placeholder="Email" required>
+                         </div>
+                         <div class="form-group">
+                           <textarea class="form-control" id="enquiry" rows="8" placeholder="Your Enquiry" required></textarea>
+                         </div>
+                         <div class="form-group">
+                           <button class="btn btn-dark">Submit</button>
+                         </div>
+                        </form>
+                     </div>
+                     </div>
+
+                    </div>
+                  </div>
+                </div>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
@@ -225,22 +262,11 @@
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
+                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
@@ -251,8 +277,10 @@
             </div>
         </div>
     </footer>
-    </footer>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

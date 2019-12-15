@@ -6,10 +6,13 @@ body {
 /*----- Navbar -----*/
 
 .navbar {
-    background-color: #868816;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color:#10172f;
 }
 
-.logo {
+nav>a {
     width: 33%;
 }
 
@@ -22,21 +25,24 @@ li {
     font-size: 2em;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(241, 45, 25);
+.navbar-nav .nav-link {
+    color:  #c60000;
 }
 
 #collapsibleNavbar {
     text-align: center;
-    background-color: transparent;
-    border-color: transparent;
-    color: transparent;
 }
 
 /*----- Home -----*/
 
-.MainPicture {
-    padding-top: 3em;
+.home {
+    height: 100vh;
+
+    background: url('../images/home3.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
 }
 
@@ -75,10 +81,11 @@ text-align: left;
 
 .music {
     height: 100VH;
-    background-image: url('../images/music-bg1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
+    background: url('../images/music-bg1.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .MusicLinks {
@@ -111,17 +118,85 @@ text-align: left;
 	height: 50%;
 }
 
+.videoWrapper>p {
+    position: absolute;
+	top: 650px;
+	left: 750px;
+	width: 50%;
+	height: 50%;
+}
+
 /*----- Concerts -----*/
 
 .concerts {
     height: 100VH;
-    background-image: url('../images/concerts.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
+    padding-top: 3em;
+    background: url('../images/concerts.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.padding {
+    padding-top: 7em;
+}
+
+.tour {
+    text-align: center;
 }
 
 /*----- Footer -----*/
+
+footer {
+    background-color: #10172f;
+    color: #c60000;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #c60000;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #c60000;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
 
 /*----- BOOTSTRAP BREAKPOINTS -----*/
 
