@@ -3,6 +3,18 @@
 body {
     font-family: 'Bangers', cursive, sans-serif;
 }
+
+a {
+    color: #c60000;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+}
 /*----- Navbar -----*/
 
 .navbar {
@@ -33,13 +45,13 @@ li {
 li>a {
     font-size: 2em;
     color:  #c60000;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
 .navbar-default .navbar-nav li a:hover {
-    color: #564F6F;
+    color: rgb(248, 226, 23);
 }
 
 /*----- Home -----*/
@@ -86,6 +98,17 @@ li>a {
 text-align: left;
 }
 
+#aboutTitle {
+    color: #c60000;
+}
+
+#aboutTitleTop {
+    color: #10172f;
+}
+
+#aboutLink {
+    text-align: center;
+}
 /*----- Music -----*/
 
 .music {
