@@ -1,44 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap&subset=latin-ext');
 
+/* -------------------------------------------------- Body -----*/
+
 body {
     font-family: 'Bangers', cursive, sans-serif;
 }
 
 a {
-    color: #c60000;
+    color: #c60000 !important;
 }
 
 a:hover {
-    color: yellow;
+    color: yellow !important;
     text-decoration: none;
-    transition: all .7s ease-in-out;
-    -moz-transition: all .7s ease-in-out;
-    -webkit-transition: all .7s ease-in-out;
+    transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
 }
-/*----- Navbar -----*/
+
+hr {
+        border-top: 10px solid yellow;
+        border-radius: 20%;
+        width: 75%;
+}
+
+/*------------------------------------------------- Navbar -----*/
 
 .navbar {
     margin-bottom: 0;
     border: 0;
     background-color:#10172f;
 }
-nav>a {
 
-}
 .nav-item {
     padding: 0px 10px 10px 10px;
     font-family: 'Bangers', cursive, sans-serif;
 }
 
-li {
-    
-}
-
-.navbar-nav .nav-link {
-    
-}
-
-#collapsibleNavbar {
+#collapsible-navbar {
     text-align: center;
 }
 
@@ -54,11 +53,10 @@ li>a {
     color: rgb(248, 226, 23);
 }
 
-/*----- Home -----*/
+/*---------------------------------------------------- Home -----*/
 
 .home {
     height: 100vh;
-
     background: url('../images/home3.jpg') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,7 +65,7 @@ li>a {
     
 }
 
-/*----- About -----*/
+/*---------------------------------------------------- About -----*/
 
 .about {
     height: 100VH;
@@ -75,41 +73,40 @@ li>a {
     
 }
 
-.aboutImage {
+.about-image {
     position: relative;
     text-align: center;
     margin-top: 125px;
 }
 
-.aboutImage>img {
+.about-image>img {
     height: 75%;
+    margin: auto;
 }
 
-.aboutText {
+.about-text {
     position: relative;
     padding: 0em 4em 0em 4em;
     font-family: 'Bangers', cursive, sans-serif;
     text-align: center;
     margin-top: 125px;
-    font-size: 0.8em;
+    font-size: 0.95em;
+    color:#10172f;
 }
 
-.aboutText>p {
-text-align: left;
-}
-
-#aboutTitle {
+#about-title {
     color: #c60000;
 }
 
-#aboutTitleTop {
+#about-title-top {
     color: #10172f;
 }
 
-#aboutLink {
+#about-link {
     text-align: center;
 }
-/*----- Music -----*/
+
+/*------------------------------------------------------ Music -----*/
 
 .music {
     height: 100VH;
@@ -120,13 +117,13 @@ text-align: left;
     background-size: cover;
 }
 
-.MusicLinksDesktop {
+.music-links-desktop {
     position: absolute;
     top: 200px;
     left: 100px;
 }
 
-/*----- Video -----*/
+/*----------------------------------------------------- Video -----*/
 
 .video {
     height: 100VH;
@@ -136,13 +133,13 @@ text-align: left;
     background-size: auto;
 }
 
-.videoWrapper {
+.video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
-.videoWrapper iframe {
+.video-wrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -150,7 +147,7 @@ text-align: left;
 	height: 100%;
 }
 
-/*----- Concerts -----*/
+/*------------------------------------------------------ Concerts -----*/
 
 .concerts {
     height: 100VH;
@@ -170,44 +167,44 @@ text-align: left;
     text-align: center;
 }
 
-/*----- Footer -----*/
+#tour-hr {
+    width: 50%;
+}
+
+/*------------------------------------------------------- Footer -----*/
 
 footer {
     background-color: #10172f;
     color: #c60000;
     min-height: 120px;
     margin: 0;
-}
-
-.cv-pdf i {
-    font-size: 18px;
-    color: #c60000;
     text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
-    color: #e84610;
+.general-sub {
+    font-size: 40px;
+    color: yellow;
 }
 
 .social-links {
     padding-bottom: 15px;
 }
 
+.list-inline-item{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
 .social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding: 12px 0;
+    width: 65px;
+    height: 65px;
+    padding: 12px 0px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 35px;
+    line-height: 40px;
     text-align: center;
-    color: #c60000;
-    background: #8f8f8f;
+    color: #10172f;
+    background: #c60000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -215,14 +212,14 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: yellow;
 }
 
 #footer-details {
     padding: 20px;
 }
 
-/*----- BOOTSTRAP BREAKPOINTS -----*/
+/*------------------------------------------------- BOOTSTRAP BREAKPOINTS -----*/
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
