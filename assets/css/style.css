@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap&subset=latin-ext');
 
 /* -------------------------------------------------- Body -----*/
-
+/*
 body {
     font-family: 'Bangers', cursive, sans-serif;
 }
@@ -23,7 +23,7 @@ hr {
         border-radius: 20%;
         width: 75%;
 }
-
+*/
 /*------------------------------------------------- Navbar -----*/
 
 .navbar {
@@ -68,7 +68,7 @@ li>a {
 /*---------------------------------------------------- About -----*/
 
 .about {
-    height: 100VH;
+    min-height: 100VH;
     padding-top: 3em;
     
 }
@@ -80,7 +80,7 @@ li>a {
 }
 
 .about-image>img {
-    height: 75%;
+    max-height: 75%;
     margin: auto;
 }
 
@@ -116,13 +116,13 @@ li>a {
     -o-background-size: cover;
     background-size: cover;
 }
-
+/*
 .music-links-desktop {
     position: absolute;
     top: 200px;
     left: 100px;
 }
-
+*/
 /*----------------------------------------------------- Video -----*/
 
 .video {
@@ -145,6 +145,10 @@ li>a {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.video-padding {
+    padding-top: 200px;
 }
 
 /*------------------------------------------------------ Concerts -----*/
