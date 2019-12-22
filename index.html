@@ -20,7 +20,7 @@
 	<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
 
 		<!-- Brand -->
-		<a class="navbar-brand" href="#"><img src="assets/images/logo2.png" class="img-fluid logo" alt="logo"></a>
+		<a class="navbar-brand" href="#"><img src="assets/images/logo2.png" class="img-fluid" id="logo" alt="logo"></a>
 
 			<!-- Toggler/collapsible Button -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
@@ -112,13 +112,15 @@
 					<div class="d-none d-lg-block music-links-desktop">
 						<iframe src="https://open.spotify.com/embed/track/7rmUSOrOLRBzI8Uq63qYcR" width="300"
 							height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-						<p class="inline-block">
+						<div class="lyrics-links">
+                        <p class="inline-block">
 							Lyrics
 							<a href="assets/cv/sample-cv.pdf" target="_blank" class="lyrics">
 								<i class="fa fa-download" aria-hidden="true"></i>
 								<span class="sr-only">Lyrics link.</span>
 							</a>
 						</p>
+                        </div>
 					</div>
 
 				</div>
@@ -134,13 +136,15 @@
 					<div class="d-none d-lg-block music-links-desktop">
 						<iframe src="https://open.spotify.com/embed/track/0zSGK8ZpVuo0XdIY21Vyrh" width="300"
 							height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-					    <p class="inline-block">
+					    <div class="lyrics-links">
+                        <p class="inline-block">
 						Lyrics
 						 <a href="assets/cv/sample-cv.pdf" target="_blank" class="lyrics">
 							<i class="fa fa-download" aria-hidden="true"></i>
 							<span class="sr-only">Lyrics link.</span>
 						 </a>
 					    </p>
+                        </div>
                     </div>
 					
 				</div>
@@ -155,13 +159,15 @@
 					<div class="d-none d-lg-block music-links-desktop">
 						<iframe src="https://open.spotify.com/embed/track/7Ma1k2O1MQzMqJYBaEXDpx" width="300"
 							height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-					    <p class="inline-block">
+					    <div class="lyrics-links">
+                        <p class="inline-block">
 						Lyrics
 						 <a href="assets/cv/sample-cv.pdf" target="_blank" class="lyrics">
 							<i class="fa fa-download" aria-hidden="true"></i>
 							<span class="sr-only">Lyrics link.</span>
 						 </a>
 					    </p>
+                        </div>
                     </div>
 					
 				</div>
@@ -174,31 +180,40 @@
 
 	<section class="video" id="video">
 
-		<div class="container-fluid">
+		<div class="container-fluid" id="video-container">
 			<div class="row">
 				<div class="col-md-2"></div>
 
 				<div class="col-md-8">
 					<div class="video-wrapper">
-						<div class="video-padding">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/AIXUgtNC4Kc?start=109"
 							frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen></iframe>
-                        </div>
-						<p class="inline-block">
-							Lyrics
-							<a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-								<i class="fa fa-download" aria-hidden="true"></i>
-								<span class="sr-only">Lyrics link.</span>
-							</a>
-						</p>
 					</div>
 				</div>
 
 				<div class="col-md-2"></div>
 
 			</div>
+
+           <div class="row">
+
+               <div class="col-12">
+                 <div class="lyrics-links">
+                 <p class="inline-block">
+							Lyrics
+							<a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+								<i class="fa fa-download" aria-hidden="true"></i>
+								<span class="sr-only">Lyrics link.</span>
+							</a>
+						</p>
+                 </div>
+               </div>
+
+           </div>    
+
+        </div>
 
 	</section>
 
