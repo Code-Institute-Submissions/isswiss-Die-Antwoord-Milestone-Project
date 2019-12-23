@@ -18,6 +18,18 @@ a:hover {
     -webkit-transition: all .6s ease-in-out;
 }
 
+button {
+    color: #c60000 !important;
+}
+
+button:hover {
+    color: yellow !important;
+    text-decoration: none;
+    transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+}
+
 hr {
         border-top: 10px solid yellow;
         border-radius: 20%;
@@ -110,11 +122,7 @@ li>a {
 #about-link {
     text-align: center;
 }
-/*
-#about-link:hover {
-    color: #25de19 !important;
-}
-*/
+
 
 /*------------------------------------------------------ Music -----*/
 
@@ -159,11 +167,17 @@ li>a {
 
 .lyrics-links>p>a>i:hover {
     color: #25de19;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 }
 
 .music-links {
 
 }
+
 /*----------------------------------------------------- Video -----*/
 
 .video {
@@ -211,10 +225,19 @@ li>a {
 
 .tour {
     text-align: center;
+    color: #10172f;
 }
 
 #tour-hr {
     width: 50%;
+}
+
+#tour-title {
+    color: #c60000;
+}
+
+form {
+    color: #10172f;
 }
 
 /*------------------------------------------------------- Footer -----*/
