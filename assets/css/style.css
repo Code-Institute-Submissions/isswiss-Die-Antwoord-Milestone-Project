@@ -135,12 +135,22 @@ li>a {
     background-size: cover;
 }
 
-.music-links-desktop {
-    position: absolute;
-    top: 200px;
-    left: 100px;
-    margin-bottom: 25px;
+.music-container {
+    position: relative;
+    height: 100VH;
 }
+
+#spotify-divs {
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.spotify-player {
+    text-align: center;
+}
+
+
 
 /*------------------------------------------------------ Lyrics links -----*/
 

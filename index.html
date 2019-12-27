@@ -10,7 +10,7 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
 </head>
 
 <body>
@@ -99,7 +99,8 @@
 	<!-----   Music   ------------------------------------------------------------------------>
 
 	<section class="music" id="music">
-		<div class="container-fluid">
+		<div class="music-container">
+        <div class="container-fluid" id="spotify-divs">
 			<div class="row">
 
 				<div class="col-12 col-lg-4">
@@ -119,9 +120,11 @@
                     </div>
 					<!-----   Large Player   ----->
 					<div class="d-none d-lg-block music-links-desktop">
-						<iframe src="https://open.spotify.com/embed/track/7rmUSOrOLRBzI8Uq63qYcR" width="300"
+						<div class="spotify-player">
+                        <iframe src="https://open.spotify.com/embed/track/7rmUSOrOLRBzI8Uq63qYcR" width="300"
 							height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-						<div class="lyrics-links">
+						</div>
+                        <div class="lyrics-links">
                         <p class="inline-block">
 							Lyrics
 							<a href="assets/cv/sample-cv.pdf" target="_blank" class="lyrics">
@@ -152,9 +155,11 @@
                     </div>
 					<!-----   Large Player   ----->
 					<div class="d-none d-lg-block music-links-desktop">
-						<iframe src="https://open.spotify.com/embed/track/0zSGK8ZpVuo0XdIY21Vyrh" width="300"
+						<div class="spotify-player">
+                        <iframe src="https://open.spotify.com/embed/track/0zSGK8ZpVuo0XdIY21Vyrh" width="300"
 							height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-					    <div class="lyrics-links">
+					    </div>
+                        <div class="lyrics-links">
                         <p class="inline-block">
 						Lyrics
 						 <a href="assets/cv/sample-cv.pdf" target="_blank" class="lyrics">
@@ -184,9 +189,11 @@
                     </div>
 					<!-----   Large Player   ----->
 					<div class="d-none d-lg-block music-links-desktop">
-						<iframe src="https://open.spotify.com/embed/track/7Ma1k2O1MQzMqJYBaEXDpx" width="300"
+						<div class="spotify-player">
+                        <iframe src="https://open.spotify.com/embed/track/7Ma1k2O1MQzMqJYBaEXDpx" width="300"
 							height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-					    <div class="lyrics-links">
+					    </div>
+                        <div class="lyrics-links">
                         <p class="inline-block">
 						Lyrics
 						 <a href="assets/cv/sample-cv.pdf" target="_blank" class="lyrics">
@@ -201,6 +208,7 @@
 
 			</div>
 		</div>
+        </di>
 	</section>
 
 	<!-----   Video   ------------------------------------------------------------------------>
