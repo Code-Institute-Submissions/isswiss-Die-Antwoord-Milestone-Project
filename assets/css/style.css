@@ -30,6 +30,16 @@ button:hover {
     -webkit-transition: all .6s ease-in-out;
 }
 
+.btn-primary {
+    background-color: #10172f;
+    border-color: #10172f;
+}
+
+.btn-primary:hover {
+    background-color: #10172f;
+    border-color: #10172f;
+}
+
 hr {
         border-top: 10px solid yellow;
         border-radius: 20%;
@@ -135,38 +145,6 @@ li>a {
     background-size: cover;
 }
 
-/* ---- positioning
-
-.music-links-desktop {
-    padding-top: 20vh;
-}
-.music-links-desktop iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
-}
-
-/*   ---- positoning  
-
-
-.music-links-desktop {
-    position: relative;
-    padding-bottom: 50%;
-    padding-top: 25px;
-    height: 0;
-}
-.music-links-desktop iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 25vw;
-    max-height: 50vh;
-}
-
-------------------*/
-
-/*  ---------------------------------- alternative positioning
 .music-container {
     position: relative;
     height: 100VH;
@@ -181,7 +159,6 @@ li>a {
 .spotify-player {
     text-align: center;
 }
------------------------------------------------------------  */
 
 
 /*------------------------------------------------------ Lyrics links -----*/
@@ -216,9 +193,10 @@ li>a {
 }
 }
 
-.music-links {
-
+.col-12 lyrics-links {
+    text-align: center;
 }
+
 
 /*----------------------------------------------------- Video -----*/
 
@@ -253,8 +231,9 @@ li>a {
 
 .concerts {
     min-height: 100VH;
-    padding-top: 3em;
-    background: url('../images/concerts.jpg') no-repeat center fixed;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: url('../images/concerts.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -265,23 +244,45 @@ li>a {
     padding-top: 7em;
 }
 
-.tour {
+.tour-venues {
     text-align: center;
     color: #10172f;
 }
 
+.tour-dates {
+    text-align: right;
+}
+
+.tour-dates>h5 {
+    position: relative;
+    transform: translateY(50%);
+}
+
+.tour-info {
+    text-align: left;
+}
+
+.tour-info>a {
+    position: relative;
+    transform: translateY(30%);
+}
+
 #tour-hr {
-    width: 50%;
+    width: 65%;
 }
 
 #tour-title {
     color: #c60000;
+    text-align: center;
 }
 
 form {
     color: #10172f;
 }
 
+#subscribe-form {
+    text-align: center;
+}
 
 /*------------------------------------------------------- Footer -----*/
 
