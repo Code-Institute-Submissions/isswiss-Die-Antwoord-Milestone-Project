@@ -64,7 +64,7 @@ hr {
 }
 
 li>a {
-    font-size: 2em;
+    font-size: 2.2em;
     color:  #c60000;
     transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -76,7 +76,7 @@ li>a {
 }
 
 #logo {
-    max-width: 60vw;
+    max-width: 30vw;
 }
 
 /*---------------------------------------------------- Home -----*/
@@ -117,7 +117,7 @@ li>a {
     font-family: 'Bangers', cursive, sans-serif;
     text-align: center;
     margin-top: 125px;
-    font-size: 0.95em;
+    font-size: 0.9em;
     color:#10172f;
 }
 
@@ -160,6 +160,9 @@ li>a {
     text-align: center;
 }
 
+.spotify-player-small {
+    text-align: center;
+}
 
 /*------------------------------------------------------ Lyrics links -----*/
 
@@ -242,6 +245,10 @@ li>a {
 
 .padding {
     padding-top: 7em;
+}
+
+.tour {
+    padding-bottom: 3em;
 }
 
 .tour-venues {
