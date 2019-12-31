@@ -2,6 +2,13 @@
 
 /* -------------------------------------------------- Body -----*/
 
+html {
+    scroll-behavior: smooth;
+    transition: all 10s ease-in-out;
+    -moz-transition: all 10s ease-in-out;
+    -webkit-transition: all 10s ease-in-out;
+}
+
 body {
     font-family: 'Bangers', cursive, sans-serif;
 }
@@ -244,7 +251,7 @@ li>a {
 }
 
 .padding {
-    padding-top: 3em;
+    padding-top: 5em;
 }
 
 .tour {
@@ -285,10 +292,20 @@ li>a {
 
 form {
     color: #10172f;
+    text-align: center;
 }
 
-#subscribe-form {
-    text-align: center;
+.subscribe-form {
+     padding: 0px;
+     margin: 0px;
+}
+
+#subscribe-form > form > label {
+    margin-right: 50px;
+}
+
+#subscribe-button {
+    margin-left: 50px;
 }
 
 /*------------------------------------------------------- Footer -----*/

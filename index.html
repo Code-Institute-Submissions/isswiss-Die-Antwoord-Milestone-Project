@@ -246,6 +246,38 @@
 
         </div>
 
+        <!-----   2nd Video for Small Devices only   ----->
+
+        <div class="d-none d-block d-sm-none container-fluid" id="video-container">
+			<div class="row">
+				<div class="col-md-2"></div>
+
+				<div class="col-md-8">
+					<div class="video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AIXUgtNC4Kc?start=109"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col-md-2"></div>
+
+			</div>
+
+           <div class="row">
+               
+               <div class="col-12">
+                 <div class="lyrics-links">
+                 <a class="btn btn-primary" href="#" role="button" target="_blank">Lyrics</a>
+                 <span class="sr-only">Lyrics link.</span>
+                 </div>
+               </div>
+
+           </div>    
+
+        </div>
+
 	</section>
 
 	<!-----   Concerts   --------------------------------------------------------------------->
@@ -348,23 +380,39 @@
 							
                      <br>
 
-											<!------------------ Subscribe form ------------------>
-
-                    <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-12">
-                      
-                      <div id="subscribe-form">
-                        <form>
-							<label for="email">Exclusive Updates:</label>
-							<input type="email" name="email" required placeholder="enter email"/><button class="btn btn-primary" type="submit" id="subscribe-button">Submit</button>
-						</form>
-                      </div>
-                      
-                      </div>
+					<!------------------ Subscribe form ------------------>
+                    
+                    <!---   Alternative grid   
+                    <div class="container-fluid subscribe-form">
+                    
+                        <form class="row subscribe-form">
+                            <div class="col-3">
+							  <label class="form-elements" for="email">Exclusive Updates:</label>
+							</div>
+                            <div class="col-6">
+                              <input class="form-elements" type="email" name="email" required placeholder="enter email"/>
+                            </div>
+                            <div class="col-3">
+                              <button class="btn btn-primary form-elements" type="submit" id="subscribe-button">Submit</button>
+						    </div>
+                        </form>
                     </div>
+                    -->
+                    
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12">
+                          <div id="subscribe-form">
+                            <form>
+							  <label for="email">Exclusive Updates:</label>
+							  <input type="email" name="email" required placeholder="enter email"/>
+                              <button class="btn btn-primary form-elements" type="submit" id="subscribe-button">Submit</button>
+						    </form>
+                          </div>
+                        </div>
+                      </div>
                     </div>       
-											
+
 				</div>
 			</div>
 
