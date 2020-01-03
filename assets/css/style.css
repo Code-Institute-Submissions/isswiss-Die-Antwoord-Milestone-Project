@@ -173,27 +173,15 @@ li>a {
 
 .music-container {
     position: relative;
-    height: 100VH;
+    min-height: 100VH;
 }
 
 #spotify-divs {
-    position: relative;
+    position: absolute;
     top: 50%;
-    transform: translateY(-20%);
-}
-
-@media (min-width: 768px) {
-    #spotify-divs {
-        position: relative;
-        top: 50%;
-        transform: translateY(-30%);}
-}
-
-@media (min-width: 1300px) {
-    #spotify-divs {
-        position: relative;
-        top: 50%;
-        transform: translateY(-40%);}
+    transform: translateY(-40%);
+    padding-top: 25px;
+    padding-bottom: 55px;
 }
 
 .spotify-player {
@@ -211,6 +199,12 @@ li>a {
     margin-bottom: 65px;
     text-align: center;
     padding-top: 25px;
+}
+
+.lyrics-links-small-player {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .lyrics-links>p {
