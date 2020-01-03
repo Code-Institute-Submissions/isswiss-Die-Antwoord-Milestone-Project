@@ -138,10 +138,10 @@ li>a {
 
 @media (min-width: 992px) {
     .about-text {
-        padding: 4em 4em 0em 4em;}
+        padding: 0em 4em 0em 4em;}
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .about-text {
         padding: 0em 3em 0em 3em;;
         }
@@ -242,7 +242,7 @@ li>a {
     background-image: url('../images/video-bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .video-wrapper {
@@ -260,9 +260,21 @@ li>a {
 }
 
 #video-container {
-    padding-top: 15VH;
+    transform: translateY(25%);
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    #video-container {
+        transform: translateY(60%);}
+}
+
+#first-video-lyrics-margin {
+    margin-bottom: 0px;
+}
+
+#second-video-lyrics-margin {
+    margin-bottom: 135px;
+}
 
 /*------------------------------------------------------ Concerts -----*/
 
