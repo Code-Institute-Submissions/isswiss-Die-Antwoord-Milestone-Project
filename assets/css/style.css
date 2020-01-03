@@ -75,16 +75,11 @@ hr {
 }
 
 li>a {
-    font-size: 25px;
+    font-size: 35px;
     color:  #c60000;
     transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-}
-
-@media (min-width: 1100px) {
-    li>a {
-        font-size: 35px;}
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -113,12 +108,7 @@ li>a {
 .about {
     min-height: 100VH;
     padding-bottom: 2em;
-    
-}
-
-@media (min-width: 1300px) {
-    .about {
-        padding-top: 3em;}
+    padding-top: 3em;
 }
 
 .about-image {
@@ -137,23 +127,24 @@ li>a {
     font-family: 'Bangers', cursive, sans-serif;
     text-align: center;
     margin-top: 125px;
-    font-size: 0.9em;
+    font-size: 1.2em;
     color:#10172f;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 575px) {
     .about-text {
         padding: 0em 6em 0em 6em;}
 }
 
 @media (min-width: 992px) {
     .about-text {
-        padding: 0;}
+        padding: 4em 4em 0em 4em;}
 }
 
 @media (min-width: 1300px) {
     .about-text {
-        padding: 0em 4em 0em 4em;}
+        padding: 0em 3em 0em 3em;;
+        }
 }
 
 #about-title {
@@ -188,7 +179,21 @@ li>a {
 #spotify-divs {
     position: relative;
     top: 50%;
-    transform: translateY(-40%);
+    transform: translateY(-20%);
+}
+
+@media (min-width: 768px) {
+    #spotify-divs {
+        position: relative;
+        top: 50%;
+        transform: translateY(-30%);}
+}
+
+@media (min-width: 1300px) {
+    #spotify-divs {
+        position: relative;
+        top: 50%;
+        transform: translateY(-40%);}
 }
 
 .spotify-player {
