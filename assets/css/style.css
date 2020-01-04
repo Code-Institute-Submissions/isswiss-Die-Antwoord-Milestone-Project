@@ -4,42 +4,25 @@
 
 html {
     scroll-behavior: smooth;
-    transition: all 10s ease-in-out;
-    -moz-transition: all 10s ease-in-out;
-    -webkit-transition: all 10s ease-in-out;
 }
 
 body {
     font-family: 'Bangers', cursive, sans-serif;
 }
 
-body, html, #video-position {
-    width: 100%;
-    height: 100%
-}
-
-a {
-    color: #c60000 !important;
-}
-
-a:hover {
-    color: yellow !important;
-    text-decoration: none;
-    transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -webkit-transition: all .6s ease-in-out;
-}
-
+a,
 button {
     color: #c60000 !important;
 }
 
+a:hover,
 button:hover {
     color: yellow !important;
     text-decoration: none;
     transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
     -webkit-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
 }
 
 .btn-primary {
@@ -53,9 +36,23 @@ button:hover {
 }
 
 hr {
-        border-top: 10px solid yellow;
-        border-radius: 20%;
-        width: 75%;
+    border-top: 10px solid yellow;
+    border-radius: 20%;
+    width: 75%;
+}
+
+#collapsible-navbar,
+.about-image,
+.about-text,
+.spotify-player,
+.lyrics-links,
+.lyrics-links-small-player,
+.tour-venues,
+#tour-title,
+form,
+footer,
+.social-links li a i {
+    text-align: center;
 }
 
 /*------------------------------------------------- Navbar -----*/
@@ -66,25 +63,13 @@ hr {
     background-color:#10172f;
 }
 
-.nav-item {
-    font-family: 'Bangers', cursive, sans-serif;
-}
-
-@media (min-width: 1024px) {
-    .nav-item {
-        padding: 0px 10px 10px 10px;}
-}
-
-#collapsible-navbar {
-    text-align: center;
-}
-
 li>a {
     font-size: 35px;
     color:  #c60000;
     transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .6s ease-in-out;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -118,7 +103,6 @@ li>a {
 
 .about-image {
     position: relative;
-    text-align: center;
     margin-top: 125px;
 }
 
@@ -129,25 +113,10 @@ li>a {
 
 .about-text {
     position: relative;
-    font-family: 'Bangers', cursive, sans-serif;
-    text-align: center;
     margin-top: 125px;
     font-size: 1.2em;
     color:#10172f;
 }
-
-@media (min-width: 575px) {
-    .about-text {
-        padding: 0em 6em 0em 6em;
-        }
-}
-
-@media (min-width: 1200px) {
-    .about-text {
-        padding: 0em 1em 0em 1em;;
-        }
-}
-
 
 #about-title {
     color: #c60000;
@@ -186,56 +155,18 @@ li>a {
     padding-bottom: 55px;
 }
 
-.spotify-player {
-    text-align: center;
-}
-
-.spotify-player-small {
-    text-align: center;
-}
-
 /*------------------------------------------------------ Lyrics links -----*/
 
 .lyrics-links {
     width: 100%;
     margin-bottom: 65px;
-    text-align: center;
     padding-top: 25px;
 }
 
 .lyrics-links-small-player {
     padding-bottom: 30px;
-    text-align: center;
     padding-top: 15px;
 }
-
-.lyrics-links>p {
-    font-size: 25px;
-    color: #25de19;
-}
-
-.lyrics-links>p:hover {
-    color: #25de19;
-}
-
-.lyrics-links>p>a>i {
-    padding-left: 20px;
-    color: yellow;
-}
-
-.lyrics-links>p>a>i:hover {
-    color: #25de19;
-    text-decoration: none;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-}
-
-.col-12 lyrics-links {
-    text-align: center;
-}
-
 
 /*----------------------------------------------------- Video -----*/
 
@@ -244,6 +175,9 @@ li>a {
     background-image: url('../images/video-bg3.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -253,6 +187,7 @@ li>a {
 	padding-top: 25px;
 	height: 0;
 }
+
 .video-wrapper iframe {
 	position: absolute;
 	top: 0;
@@ -263,12 +198,6 @@ li>a {
 
 #video-container {
     padding-top: 30vh;
-}
-
-@media (min-width: 1200px) {
-    #video-container {
-        padding-top: 15vh;
-        }
 }
 
 /*------------------------------------------------------ Concerts -----*/
@@ -293,7 +222,6 @@ li>a {
 }
 
 .tour-venues {
-    text-align: center;
     color: #10172f;
 }
 
@@ -321,12 +249,10 @@ li>a {
 
 #tour-title {
     color: #c60000;
-    text-align: center;
 }
 
 form {
     color: #10172f;
-    text-align: center;
 }
 
 .subscribe-form {
@@ -349,18 +275,6 @@ footer {
     color: #c60000;
     min-height: 100vh;
     margin: 0;
-    text-align: center;
-}
-
-@media (min-width: 992px) {
-    footer {
-        min-height: 20vh;
-        max-height: 35vh;
-        }
-}
-
-#follow {
-    
 }
 
 .general-sub {
@@ -368,12 +282,6 @@ footer {
     color: #c60000;
     margin-top: 2em;
     margin-bottom: 0.75em;
-}
-
-@media (min-width: 992px) {
-    .general-sub {
-    margin: 0;
-        }
 }
 
 .social-links {
@@ -385,8 +293,7 @@ footer {
 }
 
 p.inline-block {
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px;   
 }
 
 #wanna-help {
@@ -400,7 +307,6 @@ p.inline-block {
     border-radius: 50%;
     font-size: 30px;
     line-height: 20px;
-    text-align: center;
     color: #10172f;
     background: #c60000;
     transition: all 0.35s ease-in-out;
@@ -431,19 +337,34 @@ p.inline-block {
     padding-top: 1em;
 }
 
-/*------------------------------------------------- BOOTSTRAP BREAKPOINTS -----*/
+/*------------------------------------------------------- Media Queries -----*/
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+@media (min-width: 575px) {
+    .about-text {
+        padding: 0em 6em 0em 6em;
+        }
+}
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 992px) {
+    footer {
+        min-height: 20vh;
+        max-height: 35vh;
+        }
+    .general-sub {
+    margin: 0;
+        }
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 1024px) {
+    .nav-item {
+        padding: 0px 10px 10px 10px;}
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    .about-text {
+        padding: 0em 1em 0em 1em;;
+        }
+    #video-container {
+        padding-top: 15vh;
+        }
+}
