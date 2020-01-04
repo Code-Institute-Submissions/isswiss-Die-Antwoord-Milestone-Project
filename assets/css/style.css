@@ -347,14 +347,22 @@ form {
 footer {
     background-color: #10172f;
     color: #c60000;
-    min-height: 120px;
+    min-height: 100vh;
     margin: 0;
     text-align: center;
 }
 
+@media (min-width: 992px) {
+    footer {
+        min-height: 120px;
+        }
+}
+
 .general-sub {
     font-size: 30px;
-    color: yellow;
+    color: #c60000;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
 }
 
 .social-links {
@@ -368,6 +376,11 @@ footer {
 
 p.inline-block {
     margin-bottom: 0px;
+    
+}
+
+#wanna-help {
+    font-size: 1.5em;
 }
 
 .social-links li a i {
@@ -395,6 +408,7 @@ p.inline-block {
 }
 
 #contact-button {
+    padding: .175rem .75rem;
     color: #10172f !important;
     background-color: #c60000;
 }
@@ -402,6 +416,7 @@ p.inline-block {
 #contact-button:hover {
     background-color: yellow;
 }
+
 
 /*------------------------------------------------- BOOTSTRAP BREAKPOINTS -----*/
 
