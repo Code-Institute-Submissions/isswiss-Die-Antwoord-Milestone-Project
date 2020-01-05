@@ -105,7 +105,8 @@ The photos for the site were taken from:
 [Concerts - Weheartit](https://weheartit.com/entry/145256258)</br>
 
 ## Acknowledgements
-The JavaScript function to auto close the nav button dropdown was taken from [here](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)
+The JavaScript function to auto close the nav button dropdown was taken from</br>
+[here](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)
 provided by  Marta Szymanska.</br>
 The footer section code was copied from [Code Institute Resume Mini Project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/17-adding-contact-form) and changed to my needs.</br>
 
